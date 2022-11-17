@@ -16,13 +16,13 @@ def check(grid):
 def input_(grid, prev_mark):
     while True:
         while True:
-            i = input("введи координаты по № столбца: ")
+            i = input("введи координаты по № строки: ")
             if i in ['1', '2', '3']:
                 break
             else:
                 print("!вы ввели не то!")
         while True:
-            j = input("введи координаты по № строки: ")
+            j = input("введи координаты по № столбца: ")
             if j in ['1', '2', '3']:
                 break
             else:
